@@ -8,7 +8,7 @@ body {
   background: #f1f1f1;
 }
 .nav {
-  background: black;
+  background: #212529;
   height: 70px;
   padding: 10px;
   box-sizing: border-box;
@@ -183,4 +183,44 @@ body {
   padding: 20px 0;
   font-size: 20px;
   color: #6d6d6d;
+}
+.StarDiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+@media (max-width:770px){
+  .search-container input {
+    height: 43px;
+    width: 438px;
+    margin-left: 10px;
+  }
+  .search-results {
+    border-radius: 2px;
+    margin: 1px 10px ;
+    width: 87%;
+    height: 100px;
+  }
+  .search-result img {
+    height: 98px;
+  }
+  .search-result > div span {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .search-result .movie-info button {
+    margin: 10px 10px;
+    background: #21ba45;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    padding: 6px;
+  }
+  .StrongHeader{
+    display: none;
+  }
 }

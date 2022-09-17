@@ -6,6 +6,7 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers/Changes';
 import './index.css';
 import App from './component/App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import movies from './reducers/Changes';
 
 const logger = ({dispatch, getState}) => (next) => (action) =>{
